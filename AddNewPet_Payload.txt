@@ -1,0 +1,56 @@
+{
+  "id": 20,
+  "category": {
+    "id": 20,
+    "name": "string"
+  },
+  "name": "Trolly",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+{
+  "id": 22,
+  "category": {
+    "id": 22,
+    "name": "string"
+  },
+  "name": "Trimmy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "sold"
+}
+
+{
+  "id": 21,
+  "category": {
+    "id": 21,
+    "name": "string"
+  },
+  "name": "Tracy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "pending"
+}
