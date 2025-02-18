@@ -1,5 +1,6 @@
+[
 {
-  "id": 20,
+ "id": 20,
   "category": {
     "id": 20,
     "name": "string"
@@ -10,17 +11,52 @@
   ],
   "tags": [
     {
-      "id": 0,
+      "id": 20,
       "name": "string"
     }
   ],
   "status": "available"
-}
-
+},
 {
-  "id": 22,
+ "id": 21,
+  "category": {
+    "id": 21,
+    "name": "string"
+  },
+  "name": "Bruno",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 21,
+      "name": "string"
+    }
+  ],
+  "status": "pending"
+},
+{
+ "id": 22,
   "category": {
     "id": 22,
+    "name": "string"
+  },
+  "name": "Bitsy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 22,
+      "name": "string"
+    }
+  ],
+  "status": "sold"
+},
+{
+ "id": 23,
+  "category": {
+    "id": 23,
     "name": "string"
   },
   "name": "Trimmy",
@@ -29,28 +65,12 @@
   ],
   "tags": [
     {
-      "id": 0,
+      "id": 23,
       "name": "string"
     }
   ],
-  "status": "sold"
+  "status": "available"
 }
 
-{
-  "id": 21,
-  "category": {
-    "id": 21,
-    "name": "string"
-  },
-  "name": "Tracy",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "pending"
-}
+]
+

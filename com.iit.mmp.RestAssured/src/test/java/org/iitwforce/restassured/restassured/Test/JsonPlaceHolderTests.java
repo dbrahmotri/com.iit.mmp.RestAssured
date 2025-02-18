@@ -1,7 +1,8 @@
-package org.iitwforce.restassured.restassured;
+package org.iitwforce.restassured.restassured.Test;
 
 import java.util.List;
 
+import org.iitwforce.restassured.restassured.RestLibrary;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

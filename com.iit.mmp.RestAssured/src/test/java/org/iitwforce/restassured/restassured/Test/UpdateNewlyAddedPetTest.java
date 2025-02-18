@@ -1,5 +1,6 @@
-package org.iitwforce.restassured.restassured;
+package org.iitwforce.restassured.restassured.Test;
 
+import org.iitwforce.restassured.restassured.RestLibrary;
 import org.testng.annotations.Test;
 
 

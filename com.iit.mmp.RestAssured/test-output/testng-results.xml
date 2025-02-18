@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-14T21:01:50Z" name="Default suite" finished-at="2024-05-14T21:01:52Z" duration-ms="2443">
+  <suite started-at="2025-02-18T20:30:42Z" name="Default suite" finished-at="2025-02-18T20:30:42Z" duration-ms="734">
     <groups>
     </groups>
-    <test started-at="2024-05-14T21:01:50Z" name="Default test" finished-at="2024-05-14T21:01:52Z" duration-ms="2443">
-      <class name="org.iitwforce.restassured.restassured.UpdateNewlyAddedPetTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.iitwforce.restassured.restassured.UpdateNewlyAddedPetTest@5ddcc487]" started-at="2024-05-14T21:01:50Z" name="setUp" finished-at="2024-05-14T21:01:50Z" duration-ms="14" status="PASS">
+    <test started-at="2025-02-18T20:30:42Z" name="Default test" finished-at="2025-02-18T20:30:42Z" duration-ms="734">
+      <class name="org.iitwforce.restassured.restassured.AddNewPetTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.iitwforce.restassured.restassured.AddNewPetTest@7e057f43]" started-at="2025-02-18T20:30:42Z" name="setUp" finished-at="2025-02-18T20:30:42Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateUpdateExistingPet()[pri:0, instance:org.iitwforce.restassured.restassured.UpdateNewlyAddedPetTest@5ddcc487]" started-at="2024-05-14T21:01:50Z" name="validateUpdateExistingPet" description="Updatinging existing Pet" finished-at="2024-05-14T21:01:52Z" duration-ms="2383" status="PASS">
+        <test-method signature="validateAddNewPet()[pri:0, instance:org.iitwforce.restassured.restassured.AddNewPetTest@7e057f43]" started-at="2025-02-18T20:30:42Z" name="validateAddNewPet" description="Adding a new Pet" finished-at="2025-02-18T20:30:42Z" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUpdateExistingPet -->
-      </class> <!-- org.iitwforce.restassured.restassured.UpdateNewlyAddedPetTest -->
+        </test-method> <!-- validateAddNewPet -->
+      </class> <!-- org.iitwforce.restassured.restassured.AddNewPetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

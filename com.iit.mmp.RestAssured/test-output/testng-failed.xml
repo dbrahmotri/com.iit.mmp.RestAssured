@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.iitwforce.restassured.restassured.GetNewlyAddedPetTest">
+      <class name="org.iitwforce.restassured.restassured.AddNewPetTest">
         <methods>
-          <include name="validatefindBySoldStatus"/>
-          <include name="validatefindByAvailableStatus"/>
-          <include name="validatefindByPendingStatus"/>
           <include name="setUp"/>
+          <include name="validateAddNewPet"/>
         </methods>
-      </class> <!-- org.iitwforce.restassured.restassured.GetNewlyAddedPetTest -->
+      </class> <!-- org.iitwforce.restassured.restassured.AddNewPetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
