@@ -13,7 +13,7 @@ public class AddNewPetTest extends RestLibrary {// POST
 	protected Response response;
 
 	@Test(description = "Adding a new Pet")
-	public void validateAddNewPet() throws Exception {
+	public  void validateAddNewPet() throws Exception {
 
 		String requestURL = pro.getProperty("addnewpet");
 		String payloadString = readPayload("AddNewPet_Payload.txt");
@@ -25,13 +25,13 @@ public class AddNewPetTest extends RestLibrary {// POST
 		String actual = respBody.asString();
 		System.out.println("Response Body" + actual);// printing the Response body
 
-		List<String> dogName = com.jayway.jsonpath.JsonPath.read(response, "$[*]['name']");
+		List<String> dogName = com.jayway.jsonpath.JsonPath.read(response.asString(), "$[*]['name']");
 		
-		System.out.println(dogName);
+		//System.out.println(dogName);
      
        for (String name : dogName) {
 	
-       System.out.println(name);// printing dogname
+       System.out.println(dogName);// printing dogname
 
 	}
 
